@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dom</h1> <h4>when a web page is loaded, the brouser creat dom of the page</h4>
+        <h4>the HTML dom model constrect as a tree of the object</h4>
+
+    <div class="container" id="container">
+        <div class="box" id="box-1" onclick="myfunction1()" >box-1</div>
+        <div class="box" id="box-2" onclick="myfunction2()">box-2</div>
+        <div class="box" id="box-3" onmouseover="myfunction3()">box-3</div>
+        <div class="box" id="box-4" onmouseout="myfunction4()">box-4</div>
+        <input type="text" placeholder="onkey press..." onkeypress="myfunction5()">
+        <input type="text" onkeyup="myfunction6()" placeholder="onKey Up.......">
+        <input type="text" value="" onkeydown="keypress(event)" placeholder="onkeydown....">
+    </div>
+    
+    <!-- <script src="findingTheHtmlElement.js"></script> -->
+    <!-- <script src="modifying_html.js"></script> -->
+    <!-- <script src="CreatingandaappendingHTML.js"></script> -->
+    <script src="eventHandling.js"></script>
+</body>
+</html>
